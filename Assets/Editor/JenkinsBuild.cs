@@ -16,7 +16,7 @@ public class JenkinsBuild
             Debug.Log("Command line build\n------------------\n------------------");
             string[] scenes = GetBuildScenes();
             //这里的路径是打包的路径,自定义
-            string path = "E:/Publish/cloudRes/version/Temp"; 
+            string path = "D:/Publish/cloudRes/version/Temp"; 
             Debug.Log(path);
             for (int i = 0; i < scenes.Length; ++i)
             {    
